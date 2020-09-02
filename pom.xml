@@ -15,6 +15,7 @@
     <modules>
         <module>springboot-websocket</module>
         <module>springboot-log</module>
+        <module>java-spi</module>
     </modules>
 
     <groupId>top.xuxing</groupId>
