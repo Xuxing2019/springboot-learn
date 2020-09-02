@@ -9,13 +9,17 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-websocket" />
         <module name="springboot-log" />
+        <module name="quartz" />
+        <module name="springboot-quartz-mail-service" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="quartz" options="-parameters" />
       <module name="springboot-learn" options="-parameters" />
       <module name="springboot-log" options="-parameters" />
+      <module name="springboot-quartz-mail-service" options="-parameters" />
       <module name="springboot-websocket" options="-parameters" />
     </option>
   </component>
