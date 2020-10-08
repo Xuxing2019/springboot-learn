@@ -9,5 +9,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="alipay-service" />
+    <orderEntry type="module" module-name="pay-interface" />
+    <orderEntry type="module" module-name="wechatpay-service" />
   </component>
 </module>
