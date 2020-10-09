@@ -1,0 +1,11 @@
+server:
+  port: 8080
+spring:
+  thymeleaf:
+    cache: false
+## 简单实用Security 有三种方式设置测试密码以及账号
+## 1. 项目启动时会生成随机密码 2. 实用 .yml 配置文件设置账号密码 3.配置auth认证器将密码设置到内存中
+#  security:
+#    user:
+#      name: xuxing
+#      password: xuxing

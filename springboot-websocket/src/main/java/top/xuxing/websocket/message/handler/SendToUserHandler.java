@@ -1,7 +1,5 @@
 package top.xuxing.websocket.message.handler;
 
-import com.sun.org.apache.xml.internal.resolver.readers.ExtendedXMLCatalogReader;
-import top.xuxing.websocket.message.Message;
 import top.xuxing.websocket.message.SendToUserRequest;
 
 import javax.websocket.Session;

@@ -19,6 +19,8 @@
         <module>quartz</module>
         <module>springboot-quartz-mail-service</module>
         <module>elasticsearch</module>
+        <module>spring-security</module>
+        <module>spring-security-token</module>
     </modules>
 
     <groupId>top.xuxing</groupId>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Security</title>
+</head>
+<body>
+<h2>雷霆塔一层</h2>
+<h2>雷霆塔二层</h2>
+<h2>雷霆塔三层</h2>
+<h2>雷霆塔四层</h2>
+<h2>雷霆塔五层</h2>
+<h2>雷霆塔六层</h2>
+<form action="/logout" method="post">
+    <button type="submit">退出</button>
+    <input type="hidden" th:name="${_csrf.parameterName}" th:value="${_csrf.token}">
+</form>
+</body>
+</html>
