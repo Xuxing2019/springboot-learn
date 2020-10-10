@@ -3,3 +3,7 @@ server:
 spring:
   thymeleaf:
     cache: false
+jwt:
+  secret: xuxing
+  expiration:
+    time: 1800000

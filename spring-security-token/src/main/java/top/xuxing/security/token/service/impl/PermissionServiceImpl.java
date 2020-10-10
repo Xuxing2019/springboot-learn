@@ -18,10 +18,10 @@ public class PermissionServiceImpl implements PermissionService {
     private static List<Permission> permissions = new CopyOnWriteArrayList<>();
 
     static {
-        Permission permission_add = new Permission(1L, "增加", "增加权限");
-        Permission permission_delete = new Permission(2L, "删除", "删除权限");
-        Permission permission_update = new Permission(3L, "修改", "修改权限");
-        Permission permission_query = new Permission(4L, "查询", "查询权限");
+        Permission permission_add = new Permission(1L, "add", "增加权限");
+        Permission permission_delete = new Permission(2L, "delete", "删除权限");
+        Permission permission_update = new Permission(3L, "update", "修改权限");
+        Permission permission_query = new Permission(4L, "query", "查询权限");
 
         permissions.add(permission_add);
         permissions.add(permission_delete);

@@ -17,10 +17,12 @@ public class RoleServiceImpl implements RoleService {
     private static List<Role> roles = new CopyOnWriteArrayList<>();
 
     static {
-        for (long i = 0; i < 10; i++) {
-            Role role = new Role(i, "admin_" + i, "role_" + i + "无描述");
-            roles.add(role);
-        }
+        Role role_1 = new Role(1L, "vip1", "role_1 无描述");
+        Role role_2 = new Role(2L, "vip2", "role_2 无描述");
+        Role role_3 = new Role(3L, "vip3", "role_3 无描述");
+        roles.add(role_1);
+        roles.add(role_2);
+        roles.add(role_3);
     }
 
 

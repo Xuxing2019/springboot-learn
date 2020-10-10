@@ -44,7 +44,7 @@ public class WenSecurityConfig extends WebSecurityConfigurerAdapter {
         http.csrf().disable();
 
         http.authorizeRequests()
-                .antMatchers("/do/login", "/login").permitAll()
+                .antMatchers("/do/login", "/login", "main").permitAll()
                 .antMatchers("/library").hasAnyRole("vip1", "vip2", "vip3")
                 .antMatchers("/dormitory").hasAnyRole("vip2", "vip3")
                 .antMatchers("/office").hasRole("vip3")

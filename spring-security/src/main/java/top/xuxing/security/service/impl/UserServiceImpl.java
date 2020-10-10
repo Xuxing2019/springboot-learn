@@ -2,14 +2,11 @@ package top.xuxing.security.service.impl;
 
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.SpringApplication;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
-import org.thymeleaf.spring5.context.SpringContextUtils;
 import top.xuxing.security.entity.User;
 import top.xuxing.security.service.UserService;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
@@ -23,7 +20,7 @@ public class UserServiceImpl implements UserService, InitializingBean {
     private static List<User> users = new CopyOnWriteArrayList<>();
 
     @Autowired
-    BCryptPasswordEncoder bCryptPasswordEncoder;
+    PasswordEncoder bCryptPasswordEncoder;
 
 
     @Override

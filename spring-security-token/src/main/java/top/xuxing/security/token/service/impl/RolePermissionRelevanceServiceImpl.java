@@ -19,8 +19,8 @@ public class RolePermissionRelevanceServiceImpl implements RolePermissionRelevan
     static {
         RolePermissionRelevance rolePermissionRelevance1 = new RolePermissionRelevance(1L, 1L, 4L);
 
-        RolePermissionRelevance rolePermissionRelevance2 = new RolePermissionRelevance(2L, 2L, 4L);
-        RolePermissionRelevance rolePermissionRelevance3 = new RolePermissionRelevance(3L, 2L, 3L);
+        RolePermissionRelevance rolePermissionRelevance2 = new RolePermissionRelevance(2L, 2L, 3L);
+        RolePermissionRelevance rolePermissionRelevance3 = new RolePermissionRelevance(3L, 2L, 4L);
 
         RolePermissionRelevance rolePermissionRelevance4 = new RolePermissionRelevance(4L, 3L, 1L);
         RolePermissionRelevance rolePermissionRelevance5 = new RolePermissionRelevance(5L, 3L, 2L);

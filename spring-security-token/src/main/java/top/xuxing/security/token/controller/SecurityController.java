@@ -58,4 +58,28 @@ public class SecurityController {
         String token = jwtUtil.generateToken(userDetails);
         return ResponseJson.ok().setData(token);
     }
+
+    @RequestMapping("/main")
+    @ResponseBody
+    public ResponseJson<String> main(){
+        return ResponseJson.ok();
+    }
+
+    @RequestMapping("/library")
+    @ResponseBody
+    public ResponseJson<String> library(){
+        return ResponseJson.ok();
+    }
+
+    @RequestMapping("/dormitory")
+    @ResponseBody
+    public ResponseJson<String> dormitory(){
+        return ResponseJson.ok();
+    }
+
+    @RequestMapping("/office")
+    @ResponseBody
+    public ResponseJson<String> office(){
+        return ResponseJson.ok();
+    }
 }
